@@ -25,12 +25,6 @@ public class ModOrderReverser {
     }
 
     public String ReverseModOrder() throws IOException {
-        //Notes:
-        // Store file in 2 parts. Pre mods text, and post mods text.
-        // Ask the user where the file is
-        // Modify file
-        // Ask the user where they want to save the file.
-
         String modBlock = "";
         for (int i = 1; i < modText.length - 4; i++) {
             modBlock = modBlock + modText[i] + "\n";
